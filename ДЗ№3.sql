@@ -44,8 +44,8 @@ ORDER BY firstname DESC, lastname DESC;
 
 SELECT firstname, lastname, salary
 FROM staff
-ORDER BY salary DESC
-LIMIT 5; 
+ORDER BY salary ASC
+LIMIT 3; 
 
 
 SELECT
